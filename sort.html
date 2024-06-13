@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        var a=["sanjay","vikas","raj","karan"];
+        var a=["vikas","ram","akash","raj"];
         document.write(a+"<br><br>");
-        // a.splice("start value","how many delete","add data")
-        // a.splice(1,3)
-        // a.splice(1,3,"ram","rohit")
-        a.splice(1,1,"rohit")
-        document.write(a);
+
+        a.sort();
+        document.write(a+"<br>");
+
+        a.reverse();
+        document.write(a+"<br>");
+
     </script>
 </head>
 <body>
